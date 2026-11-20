@@ -13,7 +13,7 @@ public class Meteor {
         speed = 2;
         Random rand = new Random();
         value = rand.nextInt(90) + 10; // Valori între 10 și 99
-        image = new ImageIcon("C:\\Users\\Danut\\Documents\\NetBeansProjects\\Game\\src\\meteor.png").getImage();
+        image = new ImageIcon(getClass().getResource("/meteor.png")).getImage();
     }
 
     public void update() {
