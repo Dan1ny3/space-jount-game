@@ -12,7 +12,7 @@ public class Spaceship {
         y = 250;
         speed = 5;
         ten = 5; // Inițial cifra pentru verificare
-        image = new ImageIcon("C:\\Users\\Danut\\Documents\\NetBeansProjects\\Game\\src\\spaceship.png").getImage();
+        image = new ImageIcon(getClass().getResource("/spaceship.png")).getImage();
     }
 
     public void move(KeyEvent e) {
